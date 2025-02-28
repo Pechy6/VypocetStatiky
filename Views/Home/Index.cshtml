@@ -1,9 +1,6 @@
 ﻿@model VypocetStatiky.Models.InputClass
 
-
-<h1>Index</h1>
-
-<h4>InputClass</h4>
+<h4>Statika</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -23,10 +20,10 @@
             <div class="form-group">
                 <input type="submit" value="Vygeneruj statistiku" class="btn btn-primary" />
             </div>
-            <p class="m-3">Soucet: <br><b>@Model.Secti()</b></p>
+            <p class="m-3">Soucet: <br/><b>@Model.Secti()</b></p>
             <p class="m-3">Nejmensi cislo <br/><b>@Model.NejmensiCislo()</b></p>
-            <p class="m-3">Nejvetsi cislo <br><b>@Model.NejvetsiCislo()</b></p>
-            <p class="m-3">Prumer <br><b>@Model.Prumer()</b></p>
+            <p class="m-3">Nejvetsi cislo <br/><b>@Model.NejvetsiCislo()</b></p>
+            <p class="m-3">Prumer <br/><b>@Model.Prumer()</b></p>
             <p class="m-3">Serazena cisla <br>
                 @Model.SerazenaCislaFormatted()
             </p>
